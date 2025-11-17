@@ -16,7 +16,7 @@ from telegram import Bot, Update
 # ---------- CONFIG (set these as Render environment variables) ----------
 BOT_TOKEN = os.environ.get("8249361193:AAHiuDvhZpCEdZ3EhLoFAX_liNPz5-zWA5c")
 CHAT_ID   = os.environ.get("7520425790")
-REPO_NAME = os.environ.get("REPO_NAME", "super-pro-tide-bot")
+REPO_NAME = os.environ.get("Crypto_Signal_bot-1", "super-pro-tide-bot")
 STATE_FILE = "render_state.json"
 
 # Coinbase endpoints
