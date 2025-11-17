@@ -1,8 +1,8 @@
-render.yaml
-‎services:
-‎  - type: web
-‎    name: Crypto_Signal_bot.super-pro-tide-bot
-‎    env: python
-‎    plan: free
-‎    buildCommand: "pip install -r requirements.txt"
-‎    startCommand: "python3
+services:
+  - type: web
+    name: super-pro-tide-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn main:flask_app
+    plan: free
+    
