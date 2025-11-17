@@ -4,6 +4,3 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn main:app
-    envVars:
-      BOT_TOKEN: 8249361193:AAHiuDvhZpCEdZ3EhLoFAX_liNPz5-zWA5c
-      CHAT_ID: 7520425790
